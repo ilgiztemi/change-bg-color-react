@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Red Hat Mono', monospace;
+  font-weight: bolder;
+}
+.container {
+  height: 80vh;
+  border-top: 2px solid silver;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.flipper {
+  color: lightskyblue;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.nav div span:hover {
+  color: skyblue;
+}
+.nav div span {
+  text-decoration: none;
+  color: lightslategrey;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.main {
+  background-color: #F1f5f8;
+  height: 100%;
+  border: 1px solid silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main .bg-color {
+  background-color: black;
+  color: whitesmoke;
+  width: 66%;
+  font-size: 40px;
+  line-height: 75px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+.main .color-number {
+  color: lightskyblue;
+}
+.main .btn {
+  margin-top: 25px;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: inherit;
+  color: lightslategray;
+}
+.main .btn:hover {
+  background-color: black;
+  color: whitesmoke;
+}
